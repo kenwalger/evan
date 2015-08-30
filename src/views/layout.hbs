@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='css/normalize.css' type="text/css"/>
+    <link rel='stylesheet' href='css/foundation-icons.css' type="text/css"/>
+    <link rel='stylesheet' href='css/foundation.min.css' type="text/css" />
+    <link rel='stylesheet' href='css/style.css' type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Tenor+Sans' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+    {{> _header }}
+
+    {{> _nav }}
+
+<div class="row"/>
+<div class="large-12 columns"/>
+{{{body}}}
+</div>
+</div>
+<footer class="row">
+    {{> _footer}}
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script src="js/foundation.topbar.js"></script>
+
+<script>
+    $(document).foundation();
+</script>
+
+
+</body>
+</html>

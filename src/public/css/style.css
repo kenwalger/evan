@@ -1,0 +1,43 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+.icon {
+    color: white;
+}
+
+.header {
+    background-color: #2C71D3;
+}
+
+.header-title {
+    color: white;
+    font-family: 'Tenor Sans', sans-serif;
+    position: relative;
+    top: 50%;
+    transform: translateY(100%);
+}
+
+.sport {
+    color: #2C71D3;
+    font-family: 'Tenor Sans', sans-serif;
+}
+
+.main-photo {
+    border-radius: 100px;
+    padding: 20px;
+}
+
+.body-picture {
+    border-radius: 35px;
+    padding: 20px;
+}
+
+.image-text {
+    font-size: xx-small;
+}
